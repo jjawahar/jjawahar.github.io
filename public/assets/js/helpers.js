@@ -1,6 +1,6 @@
 export default {
-    getWSServerUrl {
-        return = "http://localhost:3000";
+    getWSServerUrl() {
+        return "http://localhost:3000";
     },
 
     generateRandomString() {
