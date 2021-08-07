@@ -1,4 +1,6 @@
 export default {
+    wsServerUrl = "http://localhost:3000",
+
     generateRandomString() {
         const crypto = window.crypto || window.msCrypto;
         let array = new Uint32Array(1);
