@@ -25,7 +25,7 @@ window.addEventListener( 'load', () => {
 
         var pc = [];
 
-        let socket = io( '${h.wsServerUrl}/stream' );
+        let socket = io( '${h.getWSServerUrl()}/stream' );
 
         var socketId = '';
         var randomNumber = `__${h.generateRandomString()}__${h.generateRandomString()}__`;

@@ -1,5 +1,7 @@
 export default {
-    wsServerUrl = "http://localhost:3000",
+    getWSServerUrl {
+        return = "http://localhost:3000";
+    },
 
     generateRandomString() {
         const crypto = window.crypto || window.msCrypto;
